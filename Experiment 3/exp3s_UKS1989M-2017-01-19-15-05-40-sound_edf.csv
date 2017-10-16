@@ -1,0 +1,288 @@
+Time;Block;Trial;Event;Value
+21;1;1;trial start;1
+1359;1;1;percept;Down
+4035;1;2;trial start;2
+4709;1;2;percept;Down
+4751;1;2;sound;1500
+6480;1;2;blink;37
+8044;1;3;trial start;3
+8751;1;3;percept;Up
+8760;1;3;sound;1500
+12044;1;4;trial start;4
+12627;1;4;percept;Down
+16049;1;5;trial start;5
+16435;1;5;percept;Up
+17261;1;5;sound;1000
+17805;1;5;blink;29
+18338;1;5;blink;51
+19047;1;5;blink;4
+19078;1;5;blink;0
+20053;1;6;trial start;6
+20244;1;6;percept;Down
+20769;1;6;sound;1500
+21045;1;6;blink;13
+21578;1;6;blink;8
+21610;1;6;blink;2
+22008;1;6;blink;106
+22446;1;6;blink;82
+23521;1;6;blink;35
+24061;1;7;trial start;7
+24627;1;7;percept;Up
+25382;1;7;blink;104
+26715;1;7;blink;103
+28062;1;8;trial start;8
+28653;1;8;percept;Down
+28778;1;8;sound;1500
+32071;1;9;trial start;9
+32670;1;9;percept;Up
+32779;1;9;sound;1500
+36071;1;10;trial start;10
+36787;1;10;percept;Down
+40080;1;11;trial start;11
+40637;1;11;percept;Up
+41288;1;11;sound;1000
+44080;1;12;trial start;12
+44671;1;12;percept;Down
+45297;1;12;sound;1000
+48089;1;13;trial start;13
+48546;1;13;percept;Up
+52089;1;14;trial start;14
+52580;1;14;percept;Down
+53306;1;14;sound;1000
+56098;1;15;trial start;15
+56605;1;15;percept;Up
+56806;1;15;sound;1500
+60098;1;16;trial start;16
+60614;1;16;percept;Down
+64107;1;17;trial start;17
+64564;1;17;percept;Up
+65306;1;17;sound;1000
+68107;1;18;trial start;18
+68539;1;18;percept;Down
+68832;1;18;sound;1500
+72125;1;19;trial start;19
+72831;1;19;percept;Up
+76124;1;20;trial start;20
+76615;1;20;percept;Down
+76841;1;20;sound;1500
+80133;1;21;trial start;21
+80640;1;21;percept;Up
+81341;1;21;sound;1000
+84133;1;22;trial start;22
+84624;1;22;percept;Down
+88143;1;23;trial start;23
+88591;1;23;percept;Up
+89350;1;23;sound;1000
+92142;1;24;trial start;24
+92675;1;24;percept;Down
+93359;1;24;sound;1000
+96041;1;25;trial start;25
+20;2;1;trial start;1
+1047;2;1;percept;Up
+3797;2;1;percept;Down
+4031;2;2;trial start;2
+4747;2;2;sound;1500
+8040;2;3;trial start;3
+8748;2;3;sound;1500
+8759;2;3;percept;Up
+12040;2;4;trial start;4
+12514;2;4;percept;Down
+16049;2;5;trial start;5
+16589;2;5;percept;Up
+17257;2;5;sound;1000
+20049;2;6;trial start;6
+20490;2;6;percept;Down
+20766;2;6;sound;1500
+24058;2;7;trial start;7
+24840;2;7;percept;Up
+28058;2;8;trial start;8
+28641;2;8;percept;Down
+28775;2;8;sound;1500
+32067;2;9;trial start;9
+32524;2;9;percept;Up
+32775;2;9;sound;1500
+36072;2;10;trial start;10
+36541;2;10;percept;Down
+40084;2;11;trial start;11
+40667;2;11;percept;Up
+41293;2;11;sound;1000
+44084;2;12;trial start;12
+44650;2;12;percept;Down
+45301;2;12;sound;1000
+45275;2;12;blink;106
+45663;2;12;blink;104
+48093;2;13;trial start;13
+48667;2;13;percept;Up
+52093;2;14;trial start;14
+52567;2;14;percept;Down
+53310;2;14;sound;1000
+56102;2;15;trial start;15
+56543;2;15;percept;Up
+56811;2;15;sound;1500
+60103;2;16;trial start;16
+60560;2;16;percept;Down
+63977;2;16;percept;Up
+64111;2;17;trial start;17
+65321;2;17;sound;1000
+68111;2;18;trial start;18
+68552;2;18;percept;Down
+68828;2;18;sound;1500
+71911;2;18;percept;Up
+72120;2;19;trial start;19
+76121;2;20;trial start;20
+76603;2;20;percept;Down
+76846;2;20;sound;1500
+80129;2;21;trial start;21
+80662;2;21;percept;Up
+81338;2;21;sound;1000
+84130;2;22;trial start;22
+84562;2;22;percept;Down
+88138;2;23;trial start;23
+88654;2;23;percept;Up
+89347;2;23;sound;1000
+91177;2;23;blink;98
+91614;2;23;blink;115
+92139;2;24;trial start;24
+92571;2;24;percept;Down
+93355;2;24;sound;1000
+96038;2;25;trial start;25
+21;3;1;trial start;1
+663;3;1;percept;Up
+4031;3;2;trial start;2
+4522;3;2;percept;Down
+4747;3;2;sound;1500
+8039;3;3;trial start;3
+8614;3;3;percept;Down
+8748;3;3;sound;1500
+12040;3;4;trial start;4
+16048;3;5;trial start;5
+16589;3;5;percept;Up
+17257;3;5;sound;1000
+20049;3;6;trial start;6
+20765;3;6;sound;1500
+21957;3;6;percept;Down
+24057;3;7;trial start;7
+24699;3;7;percept;Up
+25128;3;7;blink;136
+25599;3;7;blink;133
+26815;3;7;percept;Down
+28058;3;8;trial start;8
+28774;3;8;sound;1500
+31557;3;8;percept;Up
+32066;3;9;trial start;9
+32775;3;9;sound;1500
+36067;3;10;trial start;10
+36674;3;10;percept;Down
+40075;3;11;trial start;11
+40258;3;11;percept;Up
+41284;3;11;sound;1000
+41658;3;11;percept;Down
+44076;3;12;trial start;12
+45293;3;12;sound;1000
+47309;3;12;percept;Up
+48085;3;13;trial start;13
+48709;3;13;percept;Up
+52085;3;14;trial start;14
+53302;3;14;sound;1000
+53776;3;14;percept;Down
+56094;3;15;trial start;15
+56560;3;15;percept;Up
+56802;3;15;sound;1500
+60094;3;16;trial start;16
+60518;3;16;percept;Down
+64103;3;17;trial start;17
+64586;3;17;percept;Up
+65311;3;17;sound;1000
+67577;3;17;percept;Down
+68103;3;18;trial start;18
+68820;3;18;sound;1500
+72104;3;19;trial start;19
+72661;3;19;percept;Up
+73744;3;19;percept;Down
+76112;3;20;trial start;20
+76829;3;20;sound;1500
+80120;3;21;trial start;21
+80178;3;21;percept;Up
+81198;3;21;blink;103
+81329;3;21;sound;1000
+81688;3;21;blink;95
+84129;3;22;trial start;22
+84645;3;22;percept;Down
+88146;3;23;trial start;23
+88387;3;23;percept;Up
+89355;3;23;sound;1000
+89663;3;23;percept;Down
+92147;3;24;trial start;24
+93313;3;24;percept;Down
+93364;3;24;sound;1000
+95621;3;24;percept;Up
+96037;3;25;trial start;25
+21;4;1;trial start;1
+679;4;1;percept;Up
+4038;4;2;trial start;2
+4712;4;2;percept;Down
+4755;4;2;sound;1500
+8047;4;3;trial start;3
+8513;4;3;percept;Up
+8755;4;3;sound;1500
+12047;4;4;trial start;4
+12580;4;4;percept;Down
+16048;4;5;trial start;5
+16630;4;5;percept;Up
+17256;4;5;sound;1000
+17345;4;5;blink;97
+20048;4;6;trial start;6
+20765;4;6;sound;1500
+20898;4;6;percept;Down
+24057;4;7;trial start;7
+24564;4;7;percept;Up
+28057;4;8;trial start;8
+28506;4;8;percept;Down
+28774;4;8;sound;1500
+32066;4;9;trial start;9
+32715;4;9;percept;Up
+32774;4;9;sound;1500
+36066;4;10;trial start;10
+36607;4;10;percept;Down
+40075;4;11;trial start;11
+40591;4;11;percept;Up
+41283;4;11;sound;1000
+44075;4;12;trial start;12
+44549;4;12;percept;Down
+45292;4;12;sound;1000
+45699;4;12;blink;92
+46956;4;12;blink;88
+48084;4;13;trial start;13
+48683;4;13;percept;Up
+52084;4;14;trial start;14
+52908;4;14;percept;Down
+53301;4;14;sound;1000
+56093;4;15;trial start;15
+56584;4;15;percept;Up
+56801;4;15;sound;1500
+57683;4;15;blink;96
+60093;4;16;trial start;16
+60584;4;16;percept;Down
+64102;4;17;trial start;17
+64543;4;17;percept;Up
+65310;4;17;sound;1000
+68102;4;18;trial start;18
+68601;4;18;percept;Down
+68819;4;18;sound;1500
+72111;4;19;trial start;19
+72826;4;19;percept;Up
+76111;4;20;trial start;20
+76585;4;20;percept;Down
+76827;4;20;sound;1500
+80119;4;21;trial start;21
+80610;4;21;percept;Up
+81328;4;21;sound;1000
+84120;4;22;trial start;22
+84620;4;22;percept;Down
+88129;4;23;trial start;23
+88920;4;23;percept;Up
+89337;4;23;sound;1000
+92129;4;24;trial start;24
+92537;4;24;percept;Down
+93346;4;24;sound;1000
+96036;4;25;trial start;25
