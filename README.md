@@ -42,3 +42,7 @@ Each row describes a single recorded event:
     * `percept` participant pressed the key indicating the percept. `Value` can be either `Up` or `Down`
     * `sound` onset of the note, `Value` specifies its duration, either __1000 ms__ or __1500 ms__.
     * `blink` onset of the blink (observer closed eyes). `Value` specifies the duration of the blink.
+
+## License
+All data (and associated content) is licensed under the [CC-By Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). All code is licensed
+under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
