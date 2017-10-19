@@ -1,47 +1,28 @@
-Data and analysis for the __"Out of sight, out of mind: lack of persistence for fully occluded multi-stable structure-from-motion displays"__ manuscript currently submitted to Attention, Perception, &amp; Psychophysics
+# The Lack of Interaction between Extrinsic Grouping Factors in Motion-Induced Blindness
+Data and the analysis code for the  manuscript "The Lack of Interaction between Extrinsic Grouping Factors in Motion-Induced Blindness" manuscript, submitted to Plos One
 
-## Analysis
-The complete analysis, including all figures and statistical comparisons, can be found in Jupyter notebooks.
+## Data
+### Experiment 1. "_Grouping via the Kanizsa figure and the common mask_"
+The raw data files are located in the [__Kanitza - Raw Data__](Kanitza - Raw Data) folder. The files for the main experiment and for the preliminary fingers-press asynchrony measurement are, correspondingly, in [__Main Experiment__](Kanitza - Raw Data/Main Experiment) and [__Real Disappearances__](Kanitza - Raw Data/Real Disappearances) subfolders. Please use scripts `MatlabToCSV_MainExperiment.m` and `MatlabToCSV_RealDisappearances.m` to convert from Matlab scripts to the CSV tables.
 
-## CSV-file format
+### Experiment 2. "__Grouping via the connecting line and the common mask__"
+The raw data files are located in the [__Connecting lines - Raw Data__](Connecting lines - Raw Data) folder. Files that correspond to the preliminary fingers-press asynchrony measurement are marked with `_real_dis` suffix. Please use notebooks [Connecting lines - Import responses](Connecting lines - Import responses.ipynb) and [Connecting lines - Import real disappearances](Connecting lines - Import real disappearances.ipynb) to convert raw data to CSV tables.
 
-### Experiment 1
-Each row corresponds to a single event that occurred during a block. Time of the event __in seconds__, relative to the block start, is stored in `Time`column. Object's location, at the moment of the event, is stored in `RelativeLocation` column: `-1` correspond to the left limit of the trajectory, `0` to the mid-point (screen center), `1` to the right limit of the trajectory. `Direction` column encodes the direction of object's horizontal motion at the time of the event: `-1` to the left, `1` to the right.
+### Experiment 3. "__Visibility of the illusory Kaniza triangle__"
+The raw data files are located in the [__Kanitza - Raw Data/Static Control__](Kanitza - Raw Data/Static Control) folder. Please use `MatlabToCSV_KanitzaStaticControl.m` script to convert from Matlab scripts to the CSV table.
 
-Each event is described by a code `Event` and `Value` columns:
-* `Block start` block and display onset (empty `Value`)
-* `Trajectory limit` object reached the limit of the trajectory and its linear motion was reversed. `Value` encodes new direction of motion: `-1` left (right trajectory limit was reached), `1` right (left trajectory limit was reached).
-* `Reverse rotation` vertical motion of all individual dots was inversed to trigger a reversal in the perceived 3D rotation (see Methods for details). Empty `Value`.
-* `Percept` percept onset as reported by the participant (via a key press). `Value`  encodes the reported direction of rotation around the vertical axis: `-1` up, `1` down.
-* `Block end` end of the block
+## Statistical analysis and figures
+### Experiment 1. "_Grouping via the Kanizsa figure and the common mask_"
+* Disappearance time analysis, Fig. 2A-D: [Experiment 1. Kanitza - Disappearance time](Experiment 1. Kanitza - Disappearance time.ipynb)
+* Key press simultaneity analysis, Fig. 2E-H: [Experiment 1. Kanitza - Response simultaneity](Experiment 1. Kanitza - Response simultaneity.ipynb)
 
-Columns common for the entire experimental session:
-* `Observer` observer ID, matches the file name
-* `SessionID` timestamp for the session start
+### Experiment 2. "__Grouping via the connecting line and the common mask__"
+* Disappearance time analysis, Fig. 3A-D: [Experiment 2. Connecting lines - Disappearance time](Experiment 2. Connecting lines - Disappearance time.ipynb)
+* Key press simultaneity analysis, Fig. 3E-H: [Experiment 2. Connecting lines - Response simultaneity](Experiment 2. Connecting lines - Response simultaneity.ipynb)
 
-Columns common for the entire block:
-* `Block` block index
-* `sfmWidth` width of the structure-from-motion (SFM) object _in pixels_. Occluder width corresponded to 150 pixels.
-* `showHalo` whether halo around the object was shown (`True`/`False`)
-* `playSound` whether the panning sound was played during the presentation (`True`/`False`)
-
-### Experiment 2
-Same as Experiment 1, but block-specific `sfmWidth`, `showHalo`, and `playSound` columns are replaced with `Occluder` and `Color`:
-* `Occluder` are of the occluding object covered by apertures. `0` means no occluding object, `5` means that aper`1` means that apertures covered 5% of the occluding object, etc. `100` means there were no apertures.
-* `Color` color of the occluding object. `y` means yellow, `b` means background color, so that the occluding object fully blended into the background.
-
-### Experiment 3
-CSV-file contains data extraced from a corresponding EDF-file. Please refer to the `edf2csv_Events.m` Matlab script in the data folder for details on export. Suffixes __sound__ and __blink__  label files for, correspondingly, sound-only condition and close-eyes-in-response-to-the-tone condition. Please refer to the Methods section for details.
-
-Each row describes a single recorded event:
-* `Time` time of the event __in milliseconds__, relative to the start of the block.
-* `Block` block index
-* `Trial` trial index, trial corresponds to the time in-between to trajectory limits (in-between two `Trajectory limit` events in Experiment 1 and 2)
-* `Event` and `Value` describe the specific event as follows:
-    * `trial start` start of the trial from the trajectory limit, `Value` matches the trial index
-    * `percept` participant pressed the key indicating the percept. `Value` can be either `Up` or `Down`
-    * `sound` onset of the note, `Value` specifies its duration, either __1000 ms__ or __1500 ms__.
-    * `blink` onset of the blink (observer closed eyes). `Value` specifies the duration of the blink.
+### Experiment 3. "__Visibility of the illusory Kaniza triangle__"
+* Disappearance time analysis, Fig. 4AB: [Experiment 3. Kanitza control - Disappearance time](Experiment 3. Kanitza control - Disappearance time.ipynb)
+* Kanitza visibility analysis, Fig. 4CD: [Experiment 3. Kanitza control - Kanitza visibility](Experiment 3. Kanitza control - Kanitza visibility.ipynb)
 
 ## License
 All data (and associated content) is licensed under the [CC-By Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). All code is licensed
